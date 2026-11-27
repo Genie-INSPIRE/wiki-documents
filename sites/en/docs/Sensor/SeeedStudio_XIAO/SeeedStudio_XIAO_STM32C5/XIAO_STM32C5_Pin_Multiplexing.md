@@ -1,5 +1,5 @@
 ---
-title:  Pin Multiplexing with XIAO STM32C5
+title: Pin Multiplexing with XIAO STM32C5
 description: ''
 keywords:
   - xiao
@@ -13,7 +13,7 @@ last_update:
   date: 08/26/2026
   author: Zeller
 createdAt: '2026-08-26'
-updatedAt: '2026-09-01'
+updatedAt: '2026-10-12'
 url: https://wiki.seeedstudio.com/xiao_stm32c5_pin_multiplexing/
 ---
 import Tabs from '@theme/Tabs';
@@ -45,6 +45,10 @@ import JetsonLeadQuote from '@site/src/components/JetsonLeadQuote';
 </div>
 
 ## Overview
+
+<div className="interactive_pinout_container">
+  <a className="interactive_pinout_btn" href="https://www.seeedstudio.com/xiao-series-page/playground/pinout/?board=stm32c5" target="_blank" rel="noopener noreferrer">Explore the Interactive Pinout</a>
+</div>
 
 The XIAO STM32C5 features abundant pin resources and natively supports development with various standard peripheral interfaces including Digital, Analog, SPI and IIC. This article demonstrates relevant implementations with practical application cases.
 

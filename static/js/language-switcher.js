@@ -1,6 +1,6 @@
 // 语言切换器 - 生产环境优化版本
-// 生成时间: 2026-11-19 18:23:00 (北京时间)
-// 多语言页面: 2706 个
+// 生成时间: 2026-11-26 09:40:37 (北京时间)
+// 多语言页面: 2727 个
 
 (function() {
   'use strict';
@@ -2151,7 +2151,7 @@
     "ja",
     "pt"
   ],
-  "/ai_robotics_recomputer_j501_robotics_getting_started": [
+  "/ai_robotics_recomputer_robotics_j50_mini_getting_started": [
     "cn",
     "en",
     "es",
@@ -2166,6 +2166,13 @@
     "pt"
   ],
   "/recomputer_robotics_j401_hardware_interfaces_usage": [
+    "cn",
+    "en",
+    "es",
+    "ja",
+    "pt"
+  ],
+  "/ai_robotics_recomputer_j501_robotics_getting_started": [
     "cn",
     "en",
     "es",
@@ -4034,6 +4041,13 @@
     "ja",
     "pt"
   ],
+  "/recamera_2002_development_cpp_skill": [
+    "cn",
+    "en",
+    "es",
+    "ja",
+    "pt"
+  ],
   "/configure_static_ip_on_recamera": [
     "cn",
     "en",
@@ -4392,6 +4406,13 @@
     "pt"
   ],
   "/recamera_pro_speaker_usage": [
+    "cn",
+    "en",
+    "es",
+    "ja",
+    "pt"
+  ],
+  "/recamera_pro_python_sdk_skill": [
     "cn",
     "en",
     "es",
@@ -5161,6 +5182,13 @@
     "ja",
     "pt"
   ],
+  "/wio_lr2021_dev_kit_flrc_image_transmission_demo": [
+    "cn",
+    "en",
+    "es",
+    "ja",
+    "pt"
+  ],
   "/wio_lr2021_dev_kit_command_reference": [
     "cn",
     "en",
@@ -5420,6 +5448,13 @@
     "ja",
     "pt"
   ],
+  "/zephcore_getting_started_x1": [
+    "cn",
+    "en",
+    "es",
+    "ja",
+    "pt"
+  ],
   "/meshcore_source_code_pratical_tutorial_meshtracker_x1": [
     "cn",
     "en",
@@ -5490,6 +5525,13 @@
     "ja",
     "pt"
   ],
+  "/zephcore_getting_started_p1": [
+    "cn",
+    "en",
+    "es",
+    "ja",
+    "pt"
+  ],
   "/meshcore_source_code_pratical_tutorial_solar_node": [
     "cn",
     "en",
@@ -5554,6 +5596,13 @@
     "pt"
   ],
   "/t1000e_meshcore_contact_sharing_companion_repeat": [
+    "cn",
+    "en",
+    "es",
+    "ja",
+    "pt"
+  ],
+  "/zephcore_getting_started_t1000e": [
     "cn",
     "en",
     "es",
@@ -5638,6 +5687,13 @@
     "pt"
   ],
   "/meshcore_ai_image_transmission_l1": [
+    "cn",
+    "en",
+    "es",
+    "ja",
+    "pt"
+  ],
+  "/zephcore_getting_started": [
     "cn",
     "en",
     "es",
@@ -6575,13 +6631,6 @@
     "ja",
     "pt"
   ],
-  "/lerobot_soarm101_Rynnbot_Developer_Kit": [
-    "cn",
-    "en",
-    "es",
-    "ja",
-    "pt"
-  ],
   "/lerobot_starai_arm": [
     "cn",
     "en",
@@ -7046,7 +7095,10 @@
   ],
   "/rebot_arm_b601_dm_bimanual": [
     "cn",
-    "en"
+    "en",
+    "es",
+    "ja",
+    "pt"
   ],
   "/rebot_b601_dm_getting_started": [
     "cn",
@@ -7056,6 +7108,13 @@
     "pt"
   ],
   "/rebot_arm_b601_dm_grasping_demo": [
+    "cn",
+    "en",
+    "es",
+    "ja",
+    "pt"
+  ],
+  "/rebot_b601_dm_holoscan_gravity_compensation": [
     "cn",
     "en",
     "es",
@@ -7106,7 +7165,10 @@
   ],
   "/rebot_arm_b601_rs_bimanual": [
     "cn",
-    "en"
+    "en",
+    "es",
+    "ja",
+    "pt"
   ],
   "/rebot_arm_b601_rs_camera_follow": [
     "cn",
@@ -7151,6 +7213,13 @@
     "pt"
   ],
   "/rebot_arm_b601_rs_pinocchio_meshcat": [
+    "cn",
+    "en",
+    "es",
+    "ja",
+    "pt"
+  ],
+  "/rebot_arm_b601_rs_python_visual_grasping": [
     "cn",
     "en",
     "es",
@@ -7227,6 +7296,13 @@
     "ja",
     "pt"
   ],
+  "/robotics/paper_reading_cosmos3": [
+    "cn",
+    "en",
+    "es",
+    "ja",
+    "pt"
+  ],
   "/robotics/paper_reading_dm05": [
     "cn",
     "en",
@@ -7242,6 +7318,27 @@
     "pt"
   ],
   "/robotics/paper_reading_evo1": [
+    "cn",
+    "en",
+    "es",
+    "ja",
+    "pt"
+  ],
+  "/robotics/paper_reading_fastwam": [
+    "cn",
+    "en",
+    "es",
+    "ja",
+    "pt"
+  ],
+  "/robotics/paper_reading_fineart_vla": [
+    "cn",
+    "en",
+    "es",
+    "ja",
+    "pt"
+  ],
+  "/robotics/paper_reading_flux3": [
     "cn",
     "en",
     "es",
@@ -7291,6 +7388,20 @@
     "pt"
   ],
   "/robotics/paper_reading_lingbot_vla2": [
+    "cn",
+    "en",
+    "es",
+    "ja",
+    "pt"
+  ],
+  "/robotics/paper_reading_long_wam": [
+    "cn",
+    "en",
+    "es",
+    "ja",
+    "pt"
+  ],
+  "/robotics/paper_reading_molmoact2": [
     "cn",
     "en",
     "es",
@@ -7347,6 +7458,20 @@
     "pt"
   ],
   "/robotics/paper_reading_wall_oss": [
+    "cn",
+    "en",
+    "es",
+    "ja",
+    "pt"
+  ],
+  "/robotics/paper_reading_wall_oss_05": [
+    "cn",
+    "en",
+    "es",
+    "ja",
+    "pt"
+  ],
+  "/robotics/paper_reading_x_vla": [
     "cn",
     "en",
     "es",
@@ -13196,6 +13321,13 @@
     "ja",
     "pt"
   ],
+  "/respeaker_44mm_wakeword": [
+    "cn",
+    "en",
+    "es",
+    "ja",
+    "pt"
+  ],
   "/respeaker_44mm_xiao_getting_started": [
     "cn",
     "en",
@@ -13274,6 +13406,13 @@
     "pt"
   ],
   "/respeaker_clip_firmware_quick_start": [
+    "cn",
+    "en",
+    "es",
+    "ja",
+    "pt"
+  ],
+  "/respeaker_clip_for_agent": [
     "cn",
     "en",
     "es",
@@ -14134,6 +14273,13 @@
     "ja",
     "pt"
   ],
+  "/xiao_esp32c6_with_visual_studio": [
+    "cn",
+    "en",
+    "es",
+    "ja",
+    "pt"
+  ],
   "/use_cursor_create_zigbee_prj": [
     "cn",
     "en",
@@ -14660,6 +14806,13 @@
     "pt"
   ],
   "/xiao_nrf54l15_sense_micropython": [
+    "cn",
+    "en",
+    "es",
+    "ja",
+    "pt"
+  ],
+  "/xiao_nrf54l15_nfc": [
     "cn",
     "en",
     "es",

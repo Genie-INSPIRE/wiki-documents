@@ -8,10 +8,10 @@ slug: /get_started_with_meshtastic_wio_tracker_l2
 sku: 114993648,114993649,114993653,114993654
 sidebar_position: 1
 last_update:
-  date: 3/13/2026
-  author: Michelle Huang
+  date: 11/26/2026
+  author: Advent Jiang
 createdAt: '2025-06-17'
-updatedAt: '2026-09-24'
+updatedAt: '2026-11-26'
 url: https://wiki.seeedstudio.com/es/get_started_with_meshtastic_wio_tracker_l2/
 ---
 
@@ -52,16 +52,16 @@ Luego haz clic en "Flash". No olvides marcar "Full Erase and Install" si quieres
 <Tabs>
 
 <TabItem value="1" label="MUI a BaseUI">
-Ve a la página Setting **->** Elige `Reboot/Shutdown` **->** Mantén presionado el icono de Bluetooth **->** Haz clic en `OK`
+Ve a la página Setting **->** Elige `Reboot/Shutdown` **->** Mantén pulsado el icono de Bluetooth **->** Haz clic en `OK`
 
 <p style={{textAlign: 'center'}}><img src="https://files.seeedstudio.com/wiki/SenseCAP/Wio_Tracker_L2/MUIToBaseUI.png" alt="pir" width={900} height="auto" /></p>
 
 :::tip
-La ventana emergente de cambio a BaseUI aparece cuando `mantienes presionado` el icono de Bluetooth.
+La ventana emergente de cambio a BaseUI aparece cuando `mantienes pulsado` el icono de Bluetooth.
 
 <p style={{textAlign: 'center'}}><img src="https://files.seeedstudio.com/wiki/SenseCAP/Wio_Tracker_L2/LongPress.gif" alt="pir" width={250} height="auto" /></p>
 
-Si solo haces clic en el icono de Bluetooth, entrarás en el modo Bluetooth. Si esto ocurre, mantén presionado el icono de Bluetooth que se muestra en la pantalla y el dispositivo se reiniciará automáticamente a MUI.
+Si solo haces clic en el icono de Bluetooth, entrarás en el modo Bluetooth. Si esto ocurre, mantén pulsado el icono de Bluetooth que se muestra en la pantalla y el dispositivo se reiniciará automáticamente a MUI.
 
 <p style={{textAlign: 'center'}}><img src="https://files.seeedstudio.com/wiki/SenseCAP/Wio_Tracker_L2/GoBackMUI.gif" alt="pir" width={250} height="auto" /></p>
 
@@ -84,13 +84,13 @@ Busca la dirección MAC en la etiqueta del dispositivo. El ID de nodo se basa en
 
 <p style={{textAlign: 'center'}}><img src="https://files.seeedstudio.com/wiki/SenseCAP/Wio_Tracker_L2/MACAddress.png" alt="pir" width={300} height="auto" /></p>
 
-**Paso 2. Entrar en modo de conexión Bluetooth**
+**Paso 2. Entrar en el modo de conexión Bluetooth**
 
 <Tabs>
 
 <TabItem value="3" label="MUI">
 
-Ve a la página `Setting`, haz clic en `Reboot/Shutdown`, luego haz clic en el `icono de Bluetooth`.
+Ve a la página `Setting`, haz clic en `Reboot/Shutdown` y luego haz clic en el `icono de Bluetooth`.
 
 <p style={{textAlign: 'center'}}><img src="https://files.seeedstudio.com/wiki/SenseCAP/Wio_Tracker_L2/BluetoothModeMUI.png" alt="pir" width={800} height="auto" /></p>
 
@@ -148,13 +148,13 @@ El dispositivo está siempre en modo de emparejamiento Bluetooth, sin necesidad 
 
 ### Configurar LoRa
 
-Para empezar a comunicarte a través de la malla, debes establecer tu región. Este ajuste controla qué rango de frecuencias utiliza tu dispositivo y debe configurarse de acuerdo con tu ubicación regional.
+Para empezar a comunicarte a través de la malla, debes establecer tu región. Este ajuste controla qué rango de frecuencias utiliza tu dispositivo y debe configurarse según tu ubicación regional.
 
 **Lista de regiones**
 
 |**Código de región**|**Descripción**|**Rango de frecuencia (MHz)**|**Ciclo de trabajo (%)**|**Límite de potencia (dBm)**|
 | :-: | :-: | :-: | :-: | :-: |
-|UNSET|Sin configurar|N/A|N/A|N/A|
+|UNSET|Sin establecer|N/A|N/A|N/A|
 |US|Estados Unidos|902.0 - 928.0|100|30|
 |EU_868|Unión Europea 868MHz|869.4 - 869.65|10|27|
 
@@ -202,7 +202,7 @@ Ve a la página `LoRa Info`, haz clic en `Region`, elige la región y luego haz 
 
 </Tabs>
 
-Ahora que has configurado la región LoRa en tu dispositivo, puedes continuar configurando cualquier [LoRa Configs](https://meshtastic.org/docs/configuration/radio/lora/) para adaptarlo a tus necesidades.
+Ahora que has configurado la región LoRa en tu dispositivo, puedes continuar configurando cualquier [LoRa Configs](https://meshtastic.org/docs/configuration/radio/lora/) para adaptarlas a tus necesidades.
 
 ### Uso del mapa
 
@@ -212,7 +212,7 @@ Ahora que has configurado la región LoRa en tu dispositivo, puedes continuar co
 
 **Paso 1. Habilitar GPS**
 
-Necesitas habilitar el GPS para obtener la posición. Esto se puede configurar directamente en el dispositivo `manteniendo presionado el icono de posición`. 
+Necesitas habilitar el GPS para obtener la posición. Esto se puede configurar directamente en el dispositivo `manteniendo pulsado el icono de posición`. 
 
 <p style={{textAlign: 'center'}}><img src="https://files.seeedstudio.com/wiki/SenseCAP/Wio_Tracker_L2/GPSEnableMUI.png" alt="pir" width={900} height="auto" /></p>
 
@@ -238,7 +238,7 @@ Espera a que el mapa se cargue. Después de conectarse correctamente a la red Wi
 
 **Paso 1. Habilitar GPS**
 
-Necesitas habilitar el GPS para obtener la posición. Esto se puede configurar directamente en el dispositivo `manteniendo presionado el icono de posición`. 
+Necesitas habilitar el GPS para obtener la posición. Esto se puede configurar directamente en el dispositivo `manteniendo pulsado el icono de posición`. 
 
 <p style={{textAlign: 'center'}}><img src="https://files.seeedstudio.com/wiki/SenseCAP/Wio_Tracker_L2/GPSEnableMUI.png" alt="pir" width={900} height="auto" /></p>
 
@@ -250,7 +250,7 @@ Configura el nombre y la contraseña de la red Wifi. Esto se puede hacer directa
 
 :::tip
 
-La red Wifi conectada debe ser de 2.4G. El dispositivo no puede usar redes Wifi de 5G.
+La red Wifi conectada debe ser de 2.4G. El Wifi de 5G no puede ser utilizado por el dispositivo.
 
 :::
 
@@ -260,7 +260,7 @@ El Wifi está deshabilitado cuando la IP de wifi está vacía y el icono de wifi
 
 <p style={{textAlign: 'center'}}><img src="https://files.seeedstudio.com/wiki/SenseCAP/Wio_Tracker_L2/WifiStatus.png" alt="pir" width={900} height="auto" /></p>
 
-Mantén presionado el icono `Wifi` para cambiar el estado.
+Mantén pulsado el icono `Wifi` para cambiar el estado.
 
 <p style={{textAlign: 'center'}}><img src="https://files.seeedstudio.com/wiki/SenseCAP/Wio_Tracker_L2/WifiSwitchMUI.png" alt="pir" width={450} height="auto" /></p>
 
@@ -308,7 +308,7 @@ Puedes ajustar el intervalo de actualización y el intervalo de difusión para o
 
 <p style={{textAlign: 'center'}}><img src="https://files.seeedstudio.com/wiki/SenseCAP/Meshtastic/MeshGPS.png" alt="pir" width={500} height="auto" /></p>
 
-Para IOS, activa `Accurate Location`. De lo contrario, el posicionamiento puede desviarse.
+Para IOS, por favor activa `Accurate Location`. De lo contrario, el posicionamiento puede desviarse.
 
 <p style={{textAlign: 'center'}}><img src="https://files.seeedstudio.com/wiki/SenseCAP/Meshtastic/IOSAccurateLocation.jpg" alt="pir" width={200} height="auto" /></p>
 
@@ -317,7 +317,7 @@ Para IOS, activa `Accurate Location`. De lo contrario, el posicionamiento puede 
 
 <p style={{textAlign: 'center'}}><img src="https://files.seeedstudio.com/wiki/SenseCAP/Wio_Tracker_L2/SensorConnection.png" alt="pir" width={500} height="auto" /></p>
 
-Puedes añadir sensores al dispositivo mediante la interfaz Grove. Los siguientes sensores se han verificado como compatibles con la interfaz Grove del dispositivo.
+Puedes añadir sensores al dispositivo mediante la interfaz Grove. Los siguientes sensores han sido verificados como compatibles con la interfaz Grove del dispositivo.
 
 <table>
   <tr>
@@ -371,6 +371,10 @@ Puedes añadir sensores al dispositivo mediante la interfaz Grove. Los siguiente
 </TabItem>
 </Tabs>
 
+Por ejemplo, cuando un sensor ambiental Grove BME280 (temperatura, humedad y barómetro) se conecta a la interfaz Grove, las lecturas pueden mostrarse directamente en la pantalla táctil del dispositivo:
+
+<p style={{textAlign: 'center'}}><img src="https://files.seeedstudio.com/wiki/SenseCAP/Wio_Tracker_L2/BME280.png" alt="BME280 display effect" width={600} height="auto" /></p>
+
 ### Otras funciones
 
 <Tabs>
@@ -382,9 +386,9 @@ Puedes añadir sensores al dispositivo mediante la interfaz Grove. Los siguiente
 <TabItem value="13" label="Barra de menús">
 | Método de interacción | Efecto |
 |---|---|
-| Mantener pulsado el icono de inicio | Resincronizado |
-| Mantener pulsado el icono de lista de nodos | Entra en la página de filtro de nodos |
-| Mantener pulsado el icono de ajustes | La pantalla se apaga |
+| Pulsación larga en el icono de inicio | Resincronizado |
+| Pulsación larga en el icono de lista de nodos | Entra en la página de filtro de nodos |
+| Pulsación larga en el icono de ajustes | La pantalla se apaga |
 
 </TabItem>
 
@@ -395,13 +399,13 @@ Puedes añadir sensores al dispositivo mediante la interfaz Grove. Los siguiente
 |---|---|
 | Clic en el icono de Mensaje| Navega a la página de mensajes |
 | Clic en el icono de Nodo | Navega a la página de nodos |
-| Clic en el icono de Reloj| Conmutador de tiempo real/tiempo de actividad |
-| Mantener pulsado el icono LoRa| LoRa TX apagado/encendido|
-| Mantener pulsado el icono de Notificación| Notificación habilitada/deshabilitada|
-| Clic en el icono de Notificación| Conmutador de sonido/banner/sonido y banner|
-| Mantener pulsado el icono de GPS| GPS encendido/apagado|
-| Mantener pulsado el icono de WiFi| WiFi encendido/apagado|
-| Mantener pulsado el icono MQTT| MQTT encendido/apagado|
+| Clic en el icono de Reloj| Conmutación Tiempo real/Tiempo de actividad |
+| Pulsación larga en el icono LoRa| LoRa TX apagado/encendido|
+| Pulsación larga en el icono de Notificación| Notificación habilitada/deshabilitada|
+| Clic en el icono de Notificación| Conmutación Sonido/Banner/Sonido y banner|
+| Pulsación larga en el icono de GPS| GPS encendido/apagado|
+| Pulsación larga en el icono de WiFi| WiFi encendido/apagado|
+| Pulsación larga en el icono MQTT| MQTT encendido/apagado|
 | Clic en el icono de código QR| Muestra el código QR del dispositivo |
 
 </TabItem>
@@ -410,7 +414,7 @@ Puedes añadir sensores al dispositivo mediante la interfaz Grove. Los siguiente
 | Método de interacción | Efecto |
 |---|---|
 | Clic en un nodo| Muestra información detallada|
-| Mantener pulsado un nodo| Entra en el chat privado|
+| Pulsación larga en un nodo| Entra en el chat privado|
 | Ver la posición de un nodo| Muestra la ubicación del nodo en el mapa|
 
 </TabItem>
@@ -434,10 +438,10 @@ Mantén pulsado un chat para eliminarlo. Elige y haz clic en un chat para entrar
 | PIN de pantalla | Establecer contraseña para el arranque del dispositivo |
 | PIN de configuración | Establecer contraseña para cambios de configuración |
 | Región | Configurar región LoRa|
-| Modem Preset| Configurar el preset de LoRa |
+| Modem Preset| Configurar preajuste LoRa |
 | Canal | Editar canal|
 | Rol del dispositivo | Configurar rol |
-| WiFi | Establecer SSID y contraseña de Wifi |
+| WiFi | Establecer SSID y contraseña de WiFi |
 | Tiempo de espera de pantalla| Establecer tiempo de espera de pantalla|
 | Brillo de pantalla| Establecer brillo de pantalla|
 | Tema| Cambia el tema entre fondos oscuros y claros |
@@ -472,7 +476,7 @@ Mantén pulsado un chat para eliminarlo. Elige y haz clic en un chat para entrar
 <TabItem value="21" label="Inicio">
 | Método de interacción | Efecto |
 |---|---|
-| Seleccionar "Sleep Screen" | Apaga la pantalla temporalmente; se activa con el botón de usuario |
+| Seleccionar "Sleep Screen" | Apaga la pantalla temporalmente; se activa con la pulsación del botón de usuario |
 | Seleccionar "Send Position" | Anuncia manualmente la posición del dispositivo a los nodos de la malla (acelera el descubrimiento) |
 
 </TabItem>
@@ -493,7 +497,7 @@ Navega a "Node Action"
 |---|---|
 | Seleccionar "GPS Toggle" | GPS encendido/apagado|
 | Seleccionar "GPS Format" | Cambia el formato de GPS|
-| Seleccionar "Compass Headings" | Alterna entre encabezado dinámico, fijo y congelado para "N" |
+| Seleccionar "Compass Headings" | Alterna entre encabezado Dinámico, Fijo y Congelado para "N" |
 | Seleccionar "Compass Calibrate" | Inicia una rutina de calibración de brújula de 30 segundos |
 </TabItem>
 
@@ -502,7 +506,7 @@ Navega a "Node Action"
 |---|---|
 | Seleccionar "LoRa Region" | Seleccionar región LoRa |
 | Seleccionar "Device Role" | Cambia entre roles de dispositivo |
-| Seleccionar "Radio Preset" | Elige entre los presets disponibles|
+| Seleccionar "Radio Preset" | Elige entre los preajustes disponibles|
 
 </TabItem>
 
@@ -524,19 +528,19 @@ Navega a "Node Action"
 
 ### El dispositivo no puede emparejarse con el teléfono vía BLE
 
-- Cuando uses MUI, primero cambia al modo de emparejamiento Bluetooth antes de emparejar con tu teléfono. De lo contrario, tu teléfono no podrá reconocer tu dispositivo. Ve a la página `Setting`, haz clic en `Reboot/Shutdown` y luego haz clic en el `Bluetooth icon`.
+- Cuando uses MUI, primero cambia al modo de emparejamiento Bluetooth antes de emparejar con tu teléfono. De lo contrario, tu teléfono no podrá reconocer tu dispositivo. Ve a la página `Setting`, haz clic en `Reboot/Shutdown`, luego haz clic en el `Bluetooth icon`.
 
 <p style={{textAlign: 'center'}}><img src="https://files.seeedstudio.com/wiki/SenseCAP/Wio_Tracker_L2/BluetoothModeMUI.png" alt="pir" width={800} height="auto" /></p>
 
-- Cuando uses BaseUI, después de configurar y habilitar Wifi, solo podrás conectar tu dispositivo con la app del teléfono a través de la red. 
+- Cuando uses BaseUI, después de configurar y habilitar Wifi, solo podrás conectar tu dispositivo con la APP del teléfono a través de la red. 
 
 <div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/SenseCAP/Meshtastic/Network%20Connection.png" style={{width:350, height:'auto'}}/></div> 
 
 ### El dispositivo no puede conectarse a mi Wifi
 
-- Asegúrate de que te estás conectando a una `2.4g Wifi`. El dispositivo no puede emparejarse con Wifi de 5G. Normalmente el punto de acceso del teléfono se puede ajustar a 2.4g en la configuración del teléfono. Así que primero puedes probar con el punto de acceso de tu teléfono.
+- Asegúrate de que te estás conectando a una `2.4g Wifi`. El dispositivo no puede emparejarse con Wifi de 5G. Normalmente el punto de acceso del teléfono puede ajustarse a 2.4g en la configuración del teléfono. Así que puedes probar primero con el punto de acceso de tu teléfono.
 
-- Habilita Wifi después de configurar el nombre de Wifi y la contraseña de Wifi.
+- Habilita Wifi después de configurar el nombre y la contraseña de Wifi.
 
 Wifi está deshabilitado cuando la IP de wifi está vacía y el icono de wifi es gris. Wifi está habilitado cuando se muestra la IP de wifi y el icono de wifi es blanco. 
 
@@ -546,18 +550,30 @@ Wifi está deshabilitado cuando la IP de wifi está vacía y el icono de wifi es
 
 **Descripción**
 
-- Después de encender el dispositivo, se apagará o se reiniciará automáticamente después de un rato.
+- Después de encender el dispositivo, se apagará o reiniciará automáticamente después de un rato.
 - El registro del puerto serie se ejecuta durante un rato y luego se detiene.
 
- Esto puede deberse a reiniciar o apagar manualmente y a la fuerza el dispositivo cuando este se encuentra en los siguientes estados: sin haber terminado el proceso de transmisión de mensajes, en configuración......
+ Esto posiblemente se deba a reiniciar o apagar el dispositivo manualmente y a la fuerza cuando el dispositivo se encuentra en los siguientes estados: sin haber terminado el proceso de transmisión de mensajes, estando en configuración......
 
 **Solución de problemas**
 
-Necesitas realizar un borrado de la memoria flash y luego volver a flashear el firmware más reciente.
+Necesitas realizar un borrado de la memoria flash y luego volver a grabar el firmware más reciente.
+
+### La pantalla permanece en negro después de flashear el firmware
+
+**Descripción**
+
+- Después de flashear el firmware, el dispositivo no puede arrancar normalmente y la pantalla permanece en negro.
+
+**Solución de problemas**
+
+- Paso 1. Pulsa el botón `RST` una vez para reiniciar el dispositivo. En la mayoría de los casos, la pantalla se encenderá después del reinicio.
+
+- Paso 2. Si la pantalla sigue sin encenderse, intenta flashear primero el firmware de fábrica o Meshtastic `2.8.2 beta`, y luego vuelve a flashear el firmware que necesites.
 
 ### Restablecimiento de fábrica
 
-Si quieres restaurar la configuración predeterminada, puedes hacer un restablecimiento de fábrica. Hay dos métodos para realizar el restablecimiento de fábrica.
+Si quieres restaurar la configuración predeterminada, puedes hacer el restablecimiento de fábrica. Hay dos métodos para realizar el restablecimiento de fábrica.
 
 <Tabs>
 
@@ -571,7 +587,7 @@ El dispositivo se reiniciará con la configuración predeterminada.
 
 </TabItem>
 
-<TabItem value="9" label="Configure on Phone">
+<TabItem value="9" label="Configurar en el teléfono">
 
 Haz clic en el botón `Factory Reset` en la App. El dispositivo se reiniciará automáticamente con la configuración de fábrica. 
   <p style={{textAlign: 'center'}}><img src="https://files.seeedstudio.com/wiki/SenseCAP/Meshtastic/Factory.png" alt="pir" width={400} height="auto" /></p>
@@ -580,15 +596,15 @@ Haz clic en el botón `Factory Reset` en la App. El dispositivo se reiniciará a
 
 </Tabs>
 
-### Error en mensaje directo
+### Fallo en mensaje directo
 
 #### Restablecer NodeDB
 
-NodeDB es la base de datos local que almacena información sobre los nodos descubiertos en la red Mesh actual. Si te encuentras en una situación en la que no puedes comunicarte con un determinado nodo, puede deberse a que tu NodeDB haya almacenado información desactualizada de ese nodo. Necesitarás actualizarla.
+NodeDB es la base de datos local que almacena información sobre los nodos descubiertos en la red Mesh actual. Si te encuentras en una situación en la que no puedes comunicarte con un determinado nodo, puede deberse a que tu nodedB haya almacenado información obsoleta de ese nodo. Necesitarás actualizarla.
 
 <Tabs>
 
-<TabItem value="7" label="Configure on MUI">
+<TabItem value="7" label="Configurar en MUI">
 
 Ve a la página `Setting`, haz clic en `Configure Reset`, elige `NodedB Reset` y luego haz clic en `OK`.
 
@@ -598,7 +614,7 @@ El dispositivo se reiniciará.
 
 </TabItem>
 
-<TabItem value="9" label="Configure on Phone">
+<TabItem value="9" label="Configurar en el teléfono">
 
 Abre la app y conéctate al dispositivo de destino. Ve a **Settings**->**Device**->**Device Config**->**Reset NodeDB**.
 
@@ -625,14 +641,14 @@ Cada nodo posee un par de claves pública/privada. Para intercambiar un mensaje 
 Reinicia el dispositivo defectuoso para que la configuración surta efecto.
 
 :::note
-Después de la regeneración de la clave, otro dispositivo necesita volver a conectarse con el nodo. Por lo tanto, es mejor eliminar el nodo de la lista de nodos del otro dispositivo.
+Después de la regeneración de la clave, otro dispositivo necesita volver a conectarse con el nodo. Por lo tanto, es mejor eliminar el nodo de la lista de nodos de otros dispositivos.
 :::
 
 ### Calidad de la señal
 
 - **SNR** refleja la calidad del enlace de comunicación. Un dispositivo normal suele funcionar por encima de -7 dB. Un dispositivo con un SNR inferior a -10 dB indica un rendimiento deficiente.
 
-- **RSSI** está determinado conjuntamente por el dispositivo y su entorno. Un dispositivo normal suele funcionar por encima de -110 dBm. Un dispositivo con un RSSI inferior a -115 dBm se considera que tiene un rendimiento deficiente.
+- **RSSI** está determinado conjuntamente por el dispositivo y su entorno. Un dispositivo normal suele funcionar por encima de -110 dBm. Se considera que un dispositivo con un RSSI inferior a -115 dBm tiene un rendimiento deficiente.
 
       Para lograr el mejor efecto de señal, utiliza el dispositivo en un área abierta y sin obstrucciones, con una interferencia mínima.
 
@@ -641,6 +657,24 @@ Después de la regeneración de la clave, otro dispositivo necesita volver a con
 ```bash
 #define OCV_ARRAY 4180, 4040, 3864, 3800, 3745, 3710, 3687, 3663, 3623, 3482, 3300 
 ```
+
+### ¿Por qué mi posición aparece desplazada en otros nodos?
+
+Este es un comportamiento esperado, no un fallo de GPS ni de hardware. Cada canal tiene un ajuste de **Position precision**, cuyo valor predeterminado es **13 bits**. Eso redondea cada posición que transmites a una cuadrícula de ~±2,9 km (una configuración de privacidad para canales compartidos), mientras que tu propio dispositivo muestra su posición de máxima precisión por Bluetooth, por lo que tu propia posición parece precisa pero otros nodos ven un desplazamiento.
+
+<p style={{textAlign: 'center'}}><img src="https://files.seeedstudio.com/wiki/SenseCAP/Meshtastic/MeshGPS/meshtastic-faq-precise-location-off.png" alt="Precise location off, slider at ±2.9 km" width={300} height="auto" /></p>
+
+Para enviar con máxima precisión, actívala en **cada** dispositivo:
+
+1. Abre **Channels** en la app Meshtastic y toca tu canal.
+2. Activa **Precise location** (establece la precisión en 32 = máxima).
+3. Repite en cada dispositivo: el ajuste surte efecto en el emisor.
+
+<p style={{textAlign: 'center'}}><img src="https://files.seeedstudio.com/wiki/SenseCAP/Meshtastic/MeshGPS/meshtastic-faq-precise-location-on.jpg" alt="Precise location on (full precision)" width={300} height="auto" /></p>
+
+Alternativa por CLI: `meshtastic --ch-set module_settings.position_precision 32 --ch-index 0`
+
+**Nota (firmware 2.8+):** los canales públicos (sin clave, con clave predeterminada o con clave de un solo byte) están limitados a 15 bits (~729 m). Usa un **canal privado con una clave aleatoria** para máxima precisión.
 
 ## Recursos
 

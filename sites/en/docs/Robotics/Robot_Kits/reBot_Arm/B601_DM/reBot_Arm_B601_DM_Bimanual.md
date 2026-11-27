@@ -8,6 +8,7 @@ keywords:
   - rebot arm
   - robotics
 slug: /rebot_arm_b601_dm_bimanual
+image: https://files.seeedstudio.com/wiki/robotics/projects/rebot_arm/RS_Bimanual/rs_bimanual.webp
 sku: 100065783, 100095532, 100063143, 100045679, 100040187
 last_update:
   date: 2026-11-19
@@ -15,7 +16,7 @@ last_update:
 translation:
   skip: [[zh-CN]]
 createdAt: '2026-11-19'
-updatedAt: '2026-11-19'
+updatedAt: '2026-11-23'
 url: https://wiki.seeedstudio.com/rebot_arm_b601_dm_bimanual/
 ---
 
