@@ -1,0 +1,64 @@
+name: Reachy Mini Wiki inbox
+
+on:
+  schedule:
+    - cron: "0 2 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: read
+
+concurrency:
+  group: reachy-mini-inbox
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      INBOX_DIR: scripts/wiki-sync/output/reachy-inbox
+      GH_TOKEN: ${{ github.token }}
+      GITHUB_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Install scanner dependencies
+        run: |
+          deps="$RUNNER_TEMP/reachy-inbox-deps"
+          mkdir -p "$deps"
+          npm install --prefix "$deps" --no-audit --no-fund --ignore-scripts \
+            gray-matter@4.0.3 js-yaml@4.1.1
+          ln -s "$deps/node_modules" "$GITHUB_WORKSPACE/node_modules"
+      - name: Restore the previous inbox baseline
+        run: |
+          mkdir -p "$INBOX_DIR"
+          previous=$(gh run list --repo "$GITHUB_REPOSITORY" --workflow reachy-mini-docs-sync.yml \
+            --status success --limit 1 --json databaseId --jq '.[0].databaseId // empty')
+          if [ -n "$previous" ]; then
+            available=$(gh api "repos/$GITHUB_REPOSITORY/actions/runs/$previous/artifacts" \
+              --jq '[.artifacts[] | select(.name == "reachy-mini-inbox" and .expired == false)] | length')
+            if [ "$available" -gt 0 ]; then
+              gh run download "$previous" --repo "$GITHUB_REPOSITORY" -n reachy-mini-inbox -D "$INBOX_DIR"
+            fi
+          fi
+      - name: Scan Reachy Mini sources
+        run: node scripts/wiki-sync/reachy-inbox.mjs
+      - name: Publish the Chinese inbox summary
+        if: always()
+        run: |
+          if [ -f "$INBOX_DIR/summary.md" ]; then
+            cat "$INBOX_DIR/summary.md" >> "$GITHUB_STEP_SUMMARY"
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: reachy-mini-inbox
+          path: |
+            scripts/wiki-sync/output/reachy-inbox/inbox.json
+            scripts/wiki-sync/output/reachy-inbox/summary.md
+          if-no-files-found: error
+          retention-days: 60
